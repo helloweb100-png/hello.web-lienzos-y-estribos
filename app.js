@@ -590,7 +590,7 @@
             },
             placa: {
                 label: 'Calibre o espesor', def: 'Cal. 14', schedLabel: 'Ancho de la placa (opcional)', ph: 'Ej. 1,000 mm',
-                opts: ['Cal. 26', 'Cal. 24', 'Cal. 22', 'Cal. 20', 'Cal. 18', 'Cal. 16', 'Cal. 14', 'Cal. 12', 'Cal. 10', '3/16″', '¼″'],
+                opts: ['Cal. 26', 'Cal. 24', 'Cal. 22', 'Cal. 20', 'Cal. 18', 'Cal. 16', 'Cal. 14', 'Cal. 12', 'Cal. 10', '3/16″', '¼″', '3/8″', '½″', '¾″', '1″'],
                 piece: (s) => `Placa ${s}`,
             },
             perfil: {
