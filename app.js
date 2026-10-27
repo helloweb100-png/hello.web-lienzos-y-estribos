@@ -8,13 +8,13 @@
       Si el CDN no carga, el sitio sigue completo y usable.
 
    Cambiar el WhatsApp del negocio: editar WA_NUMBER aquí y los enlaces
-   wa.me/522228230922 del HTML (búsqueda y reemplazo).
+   wa.me/5212211919283 del HTML (búsqueda y reemplazo).
    ========================================================================== */
 (() => {
     'use strict';
 
     /* ---------- Configuración ---------- */
-    const WA_NUMBER = '522228230922';
+    const WA_NUMBER = '5212211919283';
     const waLink = (msg) => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
 
     /* ---------- Utilidades ---------- */
